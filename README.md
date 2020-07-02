@@ -2,8 +2,8 @@
 
 ## database
 
--> create postgres db
--> launch `sudo -i -U <user> -d <database> -f ./api/data/create_db.sql
+- create postgres db
+- launch `sudo -i -U <user> -d <database> -f ./api/data/create_db.sql`
 
 ## .env
 
@@ -17,8 +17,9 @@ DB_PASSWORD='password'
 
 ## Run Server
 
-Install deno : `curl -fsSL https://deno.land/x/install/install.sh | sh` or Upgrade : `deno upgrade`
-Install denon: `deno install --allow-read --allow-run --allow-write --allow-net -f --unstable https://deno.land/x/denon@v2.2.0/denon.ts`
+- Install deno : `curl -fsSL https://deno.land/x/install/install.sh | sh`  
+- or Upgrade : `deno upgrade`
+- Install denon: `deno install --allow-read --allow-run --allow-write --allow-net -f --unstable https://deno.land/x/denon@v2.2.0/denon.ts`
 
 run server :
 
